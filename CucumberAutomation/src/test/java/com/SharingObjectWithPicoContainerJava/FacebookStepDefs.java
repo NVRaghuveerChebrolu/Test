@@ -29,6 +29,7 @@ import cucumber.api.java.en.When;
 				System.out.println("actual script started");
 				//driver = getDriver();
 				driver.get("https://www.facebook.com/");
+				System.out.println("url open");
 				Thread.sleep(5000);
 			}
 			
